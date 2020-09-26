@@ -46,11 +46,6 @@ else:
     nextBirthday = date(thisYear + 1, dobMonth, dobDay)
     gap = (nextBirthday - today).days
     print("Your birthday is in " + str(gap) + " days.")
-    
-
-if name == " Neha":
-    print("I Love You Vey Much," + name + "!")
-    pass
 
 if dobMonth == 12:
     astroSign = 'Sagittarius' if (dobDay < 22) else 'Capricorn'
@@ -79,4 +74,4 @@ elif dobMonth == 11:
 
 print()
 print("Your Zodiac Sign is", astroSign)
-  print("Your birthday is in " + str(gap) + " days.")
+
